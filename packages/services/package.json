@@ -1,0 +1,11 @@
+{
+  "name": "services",
+  "packageManager": "yarn@4.0.2",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^20.10.6"
+  }
+}

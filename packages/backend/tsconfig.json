@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig_base.json",
+  "include": [
+    "src/**/*",
+    "tests/**/*"
+  ],
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "references": [
+    { "path": "../services" }
+  ]
+}

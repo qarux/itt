@@ -1,7 +1,16 @@
 {
   "name": "itt",
   "packageManager": "yarn@4.0.2",
+  "type": "module",
   "workspaces": [
-    "packages/*"
-  ]
+    "packages/backend",
+    "packages/services"
+  ],
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node built/backend/src/main.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
 }
